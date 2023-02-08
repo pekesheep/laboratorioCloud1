@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prueba</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-field">
+        <label for="full-name">Nombre Completo</label>
+        <input
+          type="text"
+          name="full-name"
+          id="full-name"
+          placeholder="Tu nombre"
+          required
+        />
+      </div>
+      <div class="form-field">
+        <label for="age-input">Edad</label>
+        <input
+          type="number"
+          name="age-input"
+          id="age-input"
+          placeholder="Tu edad"
+          required
+        />
+      </div>
+      <div class="form-field">
+        <label for=""></label>
+        <input class="btn" onclick="result()" type="button" value="Dale!" />
+      </div>
+
+      <div class="result-field">
+        <span class="result-text" id="result-text"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
